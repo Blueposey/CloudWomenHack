@@ -1,0 +1,6 @@
+Data Sources
+
+EPA: lat/long locations and facility types from this website: https://experience.arcgis.com/experience/793a7912cb184f7792fc02a9bac4192b
+
+ReFED: summary and detail csv files for US and States on food surplus.
+https://insights-engine.refed.org/food-waste-monitor?view=overview&year=2022
