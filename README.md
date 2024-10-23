@@ -1,7 +1,24 @@
+# Problem Statement 
+Animal agriculture is responsible for 16.5% of all global greenhouse emissions and 77% of the world’s agricultural land is used for animal agriculture and growing. The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity. Animal farming puts a strain on our soil further reducing our planet’s ability to recuperate from climate disasters, making food access increasingly insecure fueling a vicious cycle.
+
+(@Michelle to find sources for statistics and fact check numbers in our problem statment.)
+
+# Welcome to The Nourish Network 
+The Nourish Network is a simple application that assists organizations tackling food waste by using AI to connect food banks and mutual aid organizations with food retailers, wholesalers, and farmers; to resolve some of the logistical and administrative barriers. Our goal is to create and train a model that can predict food availability, optimize logistics, and identify food surplus Ensure that food banks can easily access information about available food. To do present the data we will create a simple web API interface for organizations to use that exposes the following data: 
+
+    - Areas of food availblity and surplus 
+    - Areas of predicted food insecurity and need
+    - food types, availability, shelf life, and demand patterns
+
+Our project will not handle to logistics of transportation, consumer outreach, or public data disclosure, our proposed goal with the Nourish Network is to streamline connections between organizatitons that handle food excess with food retailers, farmers, and wholesalers. 
+
 ## Project Name???
 
-## Introduction 
-Animal agriculture is responsible for 16.5% of all global greenhouse emissions and 77% of the world’s agricultural land is used for animal agriculture and growing. The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity. Animal farming puts a strain on our soil further reducing our planet’s ability to recuperate from climate disasters, making food access increasingly insecure fueling a vicious cycle. Our project addresses food waste by using AI to connect food banks and mutual aid organizations with food retailers, wholesalers, and farmers; enabling organizations working to revolutize food sharing by leveraging AI to resolve some of the logistical and adminstrative barriers.  
+    A short description
+    The Executive Challenge: Hack For a Sustainable Planet
+    Link to a video featuring a demo of your project, including a presentation describing your project goals, your solution components and architecture, how you thought through your approach, and any key learnings
+    The PowerPoint presentation from your video
+    A link to your code repository on GitHub
 
 ## Table of Contents
 
