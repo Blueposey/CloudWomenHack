@@ -23,6 +23,7 @@ Feeding America Hunger Statistics: https://www.feedingamerica.org/research
 Food Composition data: https://fdc.nal.usda.gov/
 Food waste solutions: https://refed.org/
 NRDC Food Waste Data: https://www.nrdc.org/stories/reducing-food-waste-eight-tips-home-cooks
+https://www.foodwastealliance.org/resources/
 
 
 
