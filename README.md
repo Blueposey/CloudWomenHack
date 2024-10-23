@@ -1,5 +1,5 @@
 # Problem Statement 
- The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity. Animal farming puts a strain on our soil further reducing our planet’s ability to recuperate from climate disasters, making food access increasingly insecure fueling a vicious cycle.
+ The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity.
 
 <!--Prioritize donation or upcycling for human or animal consumpution: https://www.epa.gov/sustainable-management-food/wasted-food-scale-->
 
