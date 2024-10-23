@@ -11,5 +11,21 @@ https://www.fao.org/platform-food-loss-waste/flw-data/en/
 https://thefoodwasteatlas.org/records
 
 ## Next Steps 
-- Michelle, Stacy, and Becky to collect data, identify Azure tools to use for data analysis, and using Azure to train models for Gayatree's consumption.
-- 
+Project Steps
+
+- Data Collection: Gather data from various sources, including food retailers, wholesalers, farmers, and food banks. This could include information on food types, availability, shelf life, and demand patterns.
+
+-Data Preparation: Clean and preprocess the data using Azure Data Factory, Document Intelligence or within AzureML to ensure it is ready for modeling.
+
+-Model Development: Use Azure ML to create and train models. Focus on models that can predict food availability, optimize logistics, and identify food surplus.
+
+-Integration: Use Azure Functions and Logic Apps to integrate various components of your system. Ensure that food banks can easily access information about available food.
+
+-Deployment
+Deploy your model and system using Azure Kubernetes Service (AKS) or Azure App Service, ensuring scalability and reliability.
+
+-Monitoring and Improvement
+Set up monitoring to track the performance of your models and workflows. Use Azure Monitor and Application Insights for this purpose. Iterate on your models based on real-world data and feedback.
+
+   
+
