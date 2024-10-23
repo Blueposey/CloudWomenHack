@@ -5,3 +5,11 @@ Animal agriculture is responsible for 16.5% of all global greenhouse emissions a
 
 ## Table of Contents
 
+## Data Sources
+https://insights-engine.refed.org/solution-database?dataView=total&indicator=us-dollars-profit
+https://www.fao.org/platform-food-loss-waste/flw-data/en/
+https://thefoodwasteatlas.org/records
+
+## Next Steps 
+- Michelle, Stacy, and Becky to collect data, identify Azure tools to use for data analysis, and using Azure to train models for Gayatree's consumption.
+- 
