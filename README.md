@@ -7,7 +7,7 @@
     - Azure Data Factory (Free: 5 low-frequency activities )
 
 # Welcome to The Nourish Network 
-The Nourish Network is a simple application that assists organizations tackling food waste by using AI to connect food banks and mutual aid organizations with food retailers, wholesalers, and farmers; to resolve some of the logistical and administrative barriers. Our goal is to create and train a model that can predict food availability, optimize logistics, and identify food surplus Ensure that food banks can easily access information about available food. To do present the data we will create a simple web API interface for organizations to use that exposes the following data: 
+The Nourish Network is a simple application that assists organizations tackling food waste by using AI to connect food banks and mutual aid organizations with food retailers, wholesalers, and farmers; to resolve some of the logistical and administrative barriers. Our goal is to create and train a model that can predict food availability, optimize logistics, and identify food surplus to ensure that food banks can easily access information about available food. To present the data we will create a simple web API interface for organizations to use that exposes the following data: 
 
     - Areas of food availblity and surplus 
     - Areas of predicted food insecurity and need
