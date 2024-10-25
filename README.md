@@ -1,19 +1,27 @@
+# Welcome to The Nourish Network 
+The Nourish Network is a simple application that assists organizations tackling food waste such as food banks and mutual aid organizations by using AI to connect them with areas of food surplus on demand. Our idea was born out of the desire to make an impact on the i
+
+The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity.
+
+with food retailers, wholesalers, and farmers; to resolve some of the logistical and administrative barriers. 
+
+Our project will not handle to logistics of transportation, consumer outreach, or public data disclosure, our proposed goal with the Nourish Network is to streamline connections between organizatitons that handle food excess with food retailers, farmers, and wholesalers. 
+# Objective 
+Our solution is to use historical models of food waste and surplus from different industry sectors (residental,farm, foodservice, manufactoring, and retail).
+Our goal is to create and train a model that can predict food availability, optimize logistics, and identify food surplus to ensure that food banks can easily access information about available food. To present the data we will create a simple web API interface for organizations to use that exposes the following data: 
+
+    - Areas of food availblity and surplus 
+    - Areas of predicted food insecurity and need
+    - food types, availability, shelf life, and demand patterns
 # Problem Statement 
- The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity.
+
 
 <!--Prioritize donation or upcycling for human or animal consumpution: https://www.epa.gov/sustainable-management-food/wasted-food-scale-->
 
 # Azure Services used
     - Azure Data Factory (Free: 5 low-frequency activities )
 
-# Welcome to The Nourish Network 
-The Nourish Network is a simple application that assists organizations tackling food waste by using AI to connect food banks and mutual aid organizations with food retailers, wholesalers, and farmers; to resolve some of the logistical and administrative barriers. Our goal is to create and train a model that can predict food availability, optimize logistics, and identify food surplus to ensure that food banks can easily access information about available food. To present the data we will create a simple web API interface for organizations to use that exposes the following data: 
 
-    - Areas of food availblity and surplus 
-    - Areas of predicted food insecurity and need
-    - food types, availability, shelf life, and demand patterns
-
-Our project will not handle to logistics of transportation, consumer outreach, or public data disclosure, our proposed goal with the Nourish Network is to streamline connections between organizatitons that handle food excess with food retailers, farmers, and wholesalers. 
 
 # Data Collection Stage 
 Short Term Data 
