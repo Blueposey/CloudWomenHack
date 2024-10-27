@@ -1,38 +1,37 @@
-# Welcome to The Nourish Network 
-The Nourish Network is a simple application that assists organizations tackling food waste such as food banks and mutual aid organizations by using AI to connect them with areas of food surplus on demand. Our idea was born out of the desire to make an impact on the i
+**Project Overview**:
+   - A brief summary of the project, its objectives, and the problem it aims to solve.
 
-The United States discards 120 billion pounds of food — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity.
-
-with food retailers, wholesalers, and farmers; to resolve some of the logistical and administrative barriers. 
-
+The Nourish Network is a simple application that assists organizations tackling food waste such as food banks and mutual aid organizations by using AI to connect them with areas of food surplus on demand. Our idea was born out of the desire to make an impact on the 120 billion pounds of food The United States discards — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity.
 Our project will not handle to logistics of transportation, consumer outreach, or public data disclosure, our proposed goal with the Nourish Network is to streamline connections between organizatitons that handle food excess with food retailers, farmers, and wholesalers. 
-# Objective 
-Our solution is to use historical models of food waste and surplus from different industry sectors (residental,farm, foodservice, manufactoring, and retail).
-Our goal is to create and train a model that can predict food availability, optimize logistics, and identify food surplus to ensure that food banks can easily access information about available food. To present the data we will create a simple web API interface for organizations to use that exposes the following data: 
 
-    - Areas of food availblity and surplus 
-    - Areas of predicted food insecurity and need
-    - food types, availability, shelf life, and demand patterns
-# Problem Statement 
+**Detailed Objectives**:
+   - Specific goals of the project, such as predicting food surplus, optimizing logistics, and identifying areas of food insecurity.
+
+**Data Sources**:
+   - A detailed list of data sources you will use, including links and descriptions of each source.
+
+**Architecture and Workflow**:
+   - A high-level overview of the architecture and workflow, including how data flows through the system and how different Azure services are used.
+
+**Technologies and Tools**:
+   - A list of technologies and tools used in the project, such as Azure Data Factory, Azure Machine Learning, and any libraries or frameworks.
+
+**Implementation Details**:
+   - Steps to set up and run the project, including any prerequisites, installation instructions, and configuration details.
+
+**Model Training and Evaluation**:
+   - Information on how the AI model is trained and evaluated, including the algorithms used and performance metrics.
+
+**Usage Instructions**:
+   - How to use the web API or interface to get recommendations for food banks.
+
+**Future Work and Improvements**:
+   - Potential future enhancements and improvements to the project.
+
+**Contributors**:
+    - Acknowledgment of team members and contributors to the project.
 
 
-<!--Prioritize donation or upcycling for human or animal consumpution: https://www.epa.gov/sustainable-management-food/wasted-food-scale-->
-
-# Azure Services used
-    - Azure Data Factory (Free: 5 low-frequency activities )
 
 
 
-# Data Collection Stage 
-Short Term Data 
-Food Loss Database: https://www.fao.org/platform-food-loss-waste/flw-data/en/
-The Food Waste Atlas: https://thefoodwasteatlas.org/records/f2-s1-46
-Feeding America Hunger Statistics: https://www.feedingamerica.org/research
-Food Composition data: https://fdc.nal.usda.gov/
-Food waste solutions: https://refed.org/
-NRDC Food Waste Data: https://www.nrdc.org/stories/reducing-food-waste-eight-tips-home-cooks
-https://www.foodwastealliance.org/resources/
-https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/key-statistics-graphics/
-
-
-   
