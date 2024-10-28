@@ -1,12 +1,15 @@
 **Project Overview**:
    - A brief summary of the project, its objectives, and the problem it aims to solve.
 
-The Nourish Network is a simple application that assists organizations tackling food waste such as food banks and mutual aid organizations by using AI to connect them with areas of food surplus on demand. Our idea was born out of the desire to make an impact on the 120 billion pounds of food The United States discards — every year. At the same time nearly 35 million people across America — including 10 million children — suffer from food insecurity.
-Our project will not handle to logistics of transportation, consumer outreach, or public data disclosure, our proposed goal with the Nourish Network is to streamline connections between organizatitons that handle food excess with food retailers, farmers, and wholesalers. 
+The Nourish Network is an application developed to support food banks, mutual aid groups, and related organizations in reducing food waste and addressing food insecurity. By analyzing historical data on food waste and food scarcity, the application predicts areas likely to experience food surplus, enabling better coordination for upcycling and donation. The primary goal is to redirect excess food to communities in need, minimizing waste and saving these organizations money to bolstering resources for other initiatives. This project was inspired by the need to address the 120 billion pounds of food discarded each year in the United States, where nearly 35 million Americans—including 10 million children—face food insecurity.
+
+In the research phase, we studied the systems of large organizations, particularly Feeding America, the largest hunger relief organization in the U.S. Feeding America’s current system connects people experiencing food insecurity with local food banks, ensuring awareness of available resources. However, there is no streamlined system to connect food banks themselves when they are in need of additional food donations. As a result, food banks can lack sufficient supply to meet demand. We believe an application like The Nourish Network could serve as a valuable tool to help boost food donations and reduce operational costs, allowing food banks to allocate more funds directly to hunger relief efforts.
+
+Additionally, we reviewed the work of the Capital Area Food Bank in Washington, D.C., a direct partner of Feeding America. In 2023, this food bank distributed 60.9 million meals, of which 31.6 million were purchased while 32.3 million came from government programs or donations from retail sources, wholesalers, and manufacturers. This significant dependence on purchased meals resulted in $95,943,433 in food costs. By improving access to surplus donations, The Nourish Network could potentially reduce these expenses, allowing food banks to redirect resources toward other critical needs and expand their reach.
+
+Example Use Case: "As a food bank administrator at zip code 11208, I am looking to stock up on frozen food by October 31, 2024. Provide me with a list of potential facilities that could assist in fulfilling my request." 
 
 **Detailed Objectives**:
-   - Specific goals of the project, such as predicting food surplus, optimizing logistics, and identifying areas of food insecurity.
-
 Existing apps which match doners and food banks focus on reducing food waste in real time. Any facility with surplus tries to contact the food bank, and donate the food as possible. 
 This doner initiated workflow has a disadvantage - food bank administrators can't plan effectively for their needs as they have no visibility/guidance for probable availability in near future.
 Banks are only able to get ~40% donations and need to purchase remaining food from retails/farms.
@@ -20,11 +23,7 @@ We have discussed the feasibility of this approach with Feeding America research
 **Architecture and Workflow**:
    - A high-level overview of the architecture and workflow, including how data flows through the system and how different Azure services are used.
 
-
-
 **Technologies and Tools**:
-   - A list of technologies and tools used in the project, such as Azure Data Factory, Azure Machine Learning, and any libraries or frameworks.
-
 Front End - 
 Reporting - Power BI
 UI for food bank administrator to search for potential doners - Web app utilizing Azure maps. The app calls REST API endpoint for the model to get the matches. 
