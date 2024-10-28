@@ -1,33 +1,38 @@
 **Project Overview**:
-The Nourish Network is a simple application that will use AzureML to support food banks, mutual aid groups, and related organizations in reducing food waste and addressing food insecurity. By analyzing historical data on food waste and food scarcity, the application will predict areas likely to experience food surplus, enabling better coordination for upcycling and donation. The primary goal is to redirect excess food to communities in need, minimizing waste and saving resources for other initiatives. This project was inspired by the need to address the 120 billion pounds of food discarded each year in the United States, where nearly 35 million Americans—including 10 million children—face food insecurity.
+The Nourish Network is an AzureML based application designed to support food banks, mutual aid groups, and related organizations in reducing food waste and addressing food insecurity. Created for the Hack for a Sustainable Planet executive challenge, this solution analyzes historical data on food surplus and scarcity to predict potential excess, facilitating timely upcycling and donations. By redirecting surplus food to communities in need, the application aims to reduce waste and free up resources for other essential programs. The project was inspired by the vast 120 billion pounds of food wasted annually in the U.S., where nearly 35 million Americans, including 10 million children, face food insecurity.
 
-In the research phase, we studied the systems of large organizations, particularly Feeding America, the largest hunger relief organization in the U.S. Feeding America’s current system connects people experiencing food insecurity with local food banks, ensuring awareness of available resources. However, there is no streamlined system to connect food banks themselves when they are in need of additional food donations. As a result, food banks can lack sufficient supply to meet demand. We believe an application like The Nourish Network could serve as a valuable tool to help boost food donations and reduce operational costs, allowing food banks to allocate more funds directly to hunger relief efforts.
-
-Additionally, we reviewed the work of the Capital Area Food Bank in Washington, D.C., a direct partner of Feeding America. In 2023, this food bank distributed 60.9 million meals, of which 31.6 million were purchased while 32.3 million came from government programs or donations from retail sources, wholesalers, and manufacturers. This significant dependence on purchased meals resulted in $95,943,433 in food costs. By improving access to surplus donations, The Nourish Network could potentially reduce these expenses, allowing food banks to redirect resources toward other critical needs and expand their reach.
+Our research explored large-scale hunger relief models like Feeding America, the largest in the U.S., which connects individuals in need with local food banks. However, a gap exists in coordinating resources among food banks, leaving some under-supplied. A tool like Nourish Network could streamline this, boosting donations and reducing operational costs. For instance, let's take the work of the Capital Area Food Bank in Washington, D.C., a direct partner of Feeding America. In 2023, this organization distributed 60.9 million meals, of which 31.6 million were purchased while 32.3 million came from government programs or donations from retail sources, wholesalers, and manufacturers. This significant dependence on purchased meals resulted in $95,943,433 in food costs. By improving access to surplus donations, The Nourish Network could potentially reduce these expenses, allowing food banks to redirect resources toward other critical needs and expand their reach.
 
 **Detailed Objectives**:
-Existing applications, which match doners and food banks focus on reducing food waste in real time. Any facility with surplus tries to contact the food bank, and donate the food as possible. This doner initiated workflow disadvantages food bank administrators because they can not plan effectively for their needs as they have no visibility/guidance for probable availability in the near future. Food donations to food banks make up 30%-50% of their food supply, 
+Existing technology is donor-initiated, which match doners and food banks focus on reducing food waste in real time, meaning food banks cannot effectively plan for future supply due to limited visibility into potential donations, leaving food banks to rely on purchasing food with cash donations, this current process aids in food waste since so many meals end up in the landfill. The Nourish Network will use AI/ML to forecast food surplus, shifting to a consumer-initiated model where food banks request resources based on their needs. This model not only matches food banks with donor facilities but can also support recurring donation setups outside the app. Our discussions with Feeding America and Capital Area Food Bank confirm this approach could fill a critical gap. Even a modest 5% increase in donations could yield 1 million additional meals and save $40 million annually in D.C. alone.
 
-able to get ~40% donations and need to purchase remaining food from retails/farms.
-We are planning to solve this by utilizing AI/ML to predict the surplus availability, and introducing a consumer initiated workflow which would match the food banks to the doners based on the banks requirements. Once matched with the doner facililies, food banks could set up recurring donation from them as applicable which would be offline process, not tracked by the app. 
-
-We have discussed the feasibility of this approach with Feeding America research team and one of the largest food banks in DC (Capital area food bank). They have acknowledged the gap. Based on our initial analysis, even if we are able to get mere 5% increase in donation due to intelligent data matching - it would lead to feeding 1M additional meals and saving $40M in just in DC.  
-
-Example Use Case: "As a food bank administrator at zip code 11208, I am looking to stock up on frozen food by October 31, 2024. Provide me with a list of potential facilities that could assist in fulfilling my request." 
+Use Case Example:
+“As a food bank administrator in ZIP code 11208, I want to secure frozen food stock by October 31, 2024. Provide a list of facilities that could assist with this request.”
 
 **Data Sources**:
-   - A detailed list of data sources you will use, including links and descriptions of each source.
+   - https://hunger-report.capitalareafoodbank.org/report-2024/ [Capital Food Bank Hunger Report]
+   - 
 
 **Architecture and Workflow**:
-   - A high-level overview of the architecture and workflow, including how data flows through the system and how different Azure services are used.
-
+  
 **Technologies and Tools**:
 Front End - 
 Reporting - Power BI
 UI for food bank administrator to search for potential doners - Web app utilizing Azure maps. The app calls REST API endpoint for the model to get the matches. 
 
 **Implementation Details**:
-   - Steps to set up and run the project, including any prerequisites, installation instructions, and configuration details.
+Data Flow
+    Data Collection 
+    Data Preparation: 
+    Data Ingestion: 
+    Storage:
+    Processing: Azure Machine Learning standardizes the data and can also apply linear regression and clustering techniques.
+    Intermediate Storage: 
+    Advanced Analysis: 
+    Search: 
+    Visualization: 
+    Interaction: 
+    Data Validation: 
 
 **Model Training and Evaluation**:
    - Information on how the AI model is trained and evaluated, including the algorithms used and performance metrics.
@@ -41,7 +46,7 @@ UI for food bank administrator to search for potential doners - Web app utilizin
      
 
 **Contributors**:
-    - Acknowledgment of team members and contributors to the project.
+    - 
 
 
 
