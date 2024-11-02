@@ -6,49 +6,5 @@ Our research explored large-scale hunger relief models like Feeding America, the
 **Detailed Objectives**:
 Current technology is donor-initiated, connecting donors with excess supply to food banks in real time. This limits food banks' ability to plan for future needs, forcing them to rely heavily on cash donations for food purchases. As a result, a significant amount of food still ends up in landfills.The Nourish Network shifts this model to a consumer-initiated approach, where food banks can request resources based on forecasted needs. Using AI/ML to predict food surplus, it matches food banks with donor facilities and allows for recurring donation arrangements outside the app. Insights from Feeding America and Capital Area Food Bank confirm that this approach could address critical gaps. A 5% increase in surplus donations alone could yield 1 million additional meals and save $40 million annually in D.C.
 
-Use Case Example:
-“As a food bank administrator in ZIP code 11208, I want to secure frozen food stock by October 31, 2024. Provide a list of facilities that could assist with this request.”
-
-**Data Sources**:
-   - https://hunger-report.capitalareafoodbank.org/report-2024/ [Capital Food Bank Hunger Report]
-   - 
-
-**Architecture and Workflow**:
-  
-**Technologies and Tools**:
-Front End - 
-Reporting - Power BI
-UI for food bank administrator to search for potential doners - Web app utilizing Azure maps. The app calls REST API endpoint for the model to get the matches. 
-
-**Implementation Details**:
-Data Flow
-    Data Collection 
-    Data Preparation: 
-    Data Ingestion: 
-    Storage:
-    Processing: Azure Machine Learning standardizes the data and can also apply linear regression and clustering techniques.
-    Intermediate Storage: 
-    Advanced Analysis: 
-    Search: 
-    Visualization: 
-    Interaction: 
-    Data Validation: 
-
-**Model Training and Evaluation**:
-   - Information on how the AI model is trained and evaluated, including the algorithms used and performance metrics.
-
-**Usage Instructions**:
-   - How to use the web API or interface to get recommendations for food banks.
-
-**Future Work and Improvements**:
-   - Provide a dashboard for food bank admnistrator to help them plan better.
-   - analyze past donations and inform administrators about new possible doner matches. This can be monthly email/in app notification based on the underlying data updates.  
-     
-
-**Contributors**:
-    - 
-
-
-
 
 
