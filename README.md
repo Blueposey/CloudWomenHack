@@ -1,3 +1,4 @@
+
 **Project Overview**:
 The Nourish Network is an AzureML based application designed to support food banks, mutual aid groups, and related organizations in reducing food waste and addressing food insecurity. Created for the Hack for a Sustainable Planet executive challenge, this solution analyzes historical data on food surplus and scarcity to predict potential excess, enabling better coordination for upcycling and donation. By redirecting surplus food to communities in need, the application aims to reduce waste and free up resources for other essential programs. The project was inspired by the vast 120 billion pounds of food wasted annually in the U.S., where nearly 35 million Americans, including 10 million children, face food insecurity.
 
@@ -8,3 +9,4 @@ Current technology is donor-initiated, connecting donors with excess supply to f
 
 
 
+Video: https://www.dropbox.com/scl/fi/xdgr2vvi69mca3qyei4he/Nourish.mp4?rlkey=w3nn7ss3ctpysdbjbq3hdv6fu&st=0vzuldnx&dl=0
